@@ -1,0 +1,90 @@
+*{
+  padding:0;
+  margin:0;
+  box-sizing: border-box;
+}
+body{
+  background-color: #F2ECE9;
+  scroll-behavior: smooth;
+}
+
+
+.main_head{
+ border-radius: 20px;
+ box-shadow: 2px 2px 5px #bbb;
+ padding:45px;
+ background: url('img/undraw_Add_files_re_v09g.png') center center;
+}
+.sub_head{
+  background-color: #fff;
+  border-radius: 20px;
+  box-shadow: 2px 2px 5px #bbb;
+  padding:25px;
+}
+
+.form-group{
+  position: relative;
+}
+
+.success input{
+  border-width:2px;
+  border-color: #2ecc71;
+}
+
+.error input{
+  border-width:2px;
+  border-color: #e74c3c;
+}
+.form-group i{
+  position: absolute;
+  top:35px;
+  right:10px;
+  visibility: hidden;
+}
+
+.success i.fa-check-circle{
+  color:#2ecc71;
+  visibility: visible;
+}
+.error i.fa-exclamation-circle{
+  color:#e74c3c;
+  visibility: visible;
+}
+
+.form-group small{
+  position: absolute;
+  left:1.5px;
+  visibility: hidden;
+}
+
+.error small{
+  color:#e74c3c;
+  visibility: visible;
+}
+
+#genderSmall{
+  position: absolute;
+  left:20px;
+  color:red;
+}
+#checkSmall{
+  position: absolute;
+  left:20px;
+  color:red;
+}
+#eduSmall{
+  position: absolute;
+  left:20px;
+  color:red;
+}
+#skillSmall{
+  position: absolute;
+  left:20px;
+  color:red;
+}
+
+.up {
+  text-align: right;
+  font-size: 40px;
+  cursor: pointer;
+}
